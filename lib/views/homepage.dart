@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
           children: <Widget>[
             GestureDetector(
               onTap: (){
-                Navigator.push(context, MaterialPageRoute(
+                Navigator.pushReplacement(context, MaterialPageRoute(
                   builder: (context) => PlayQuiz()
                 ));
               },
@@ -30,36 +30,13 @@ class _HomePageState extends State<HomePage> {
                     color: Colors.blue,
                     borderRadius: BorderRadius.circular(24)
                 ),
-                child: Text("Play", style: TextStyle(
+                child: Text("Start Quiz Now ", style: TextStyle(
                     color: Colors.white,
-                    fontSize: 17
+                    fontSize: 18
                 ),),
               ),
             ),
-            SizedBox(height: 12,),
-            Container(
-              padding: EdgeInsets.symmetric(vertical: 12,horizontal: 54),
-              decoration: BoxDecoration(
-                  color: Colors.blue,
-                  borderRadius: BorderRadius.circular(24)
-              ),
-              child: Text("Help", style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 17
-              ),),
-            ),
-            SizedBox(height: 12,),
-            Container(
-              padding: EdgeInsets.symmetric(vertical: 12,horizontal: 54),
-              decoration: BoxDecoration(
-                  color: Colors.blue,
-                  borderRadius: BorderRadius.circular(24)
-              ),
-              child: Text("Rate Us", style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 17
-              ),),
-            ),
+
           ],
         ),
       ),
