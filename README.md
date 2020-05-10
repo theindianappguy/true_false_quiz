@@ -1,6 +1,6 @@
-# true_false_quiz
+![true false quiz app made with flutter by theindianappguy](https://user-images.githubusercontent.com/55942632/81511470-62e6d200-9337-11ea-8bee-f0d3d5364c9a.png)
 
-A new Flutter project.
+Fun Trivia game made wtih flutter taught on yotube.
 
 ## Getting Started
 
